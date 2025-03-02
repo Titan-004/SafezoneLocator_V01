@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="/css/style.css">
 
     <!-- Google Maps API -->
-    <script src="https://maps.googleapis.com/maps/api/js?key={GOOGLE_MAPS_API_KEY}&libraries=marker,places&callback=initMap" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxd5vYVDPo8l2jUvSpyNvxfFLd_Q5pg5A&libraries=marker,places&callback=initMap" defer></script>
 
 
     <script>
@@ -48,7 +48,7 @@
         }
 
         function getAccurateLocation() {
-        fetch(`https://www.googleapis.com/geolocation/v1/geolocate?key={GOOGLE_MAPS_API_KEY}`, {
+        fetch(`https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyDxd5vYVDPo8l2jUvSpyNvxfFLd_Q5pg5A`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
